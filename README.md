@@ -1,0 +1,2 @@
+# HMCUTZ
+A Barbershop website
