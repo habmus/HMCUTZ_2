@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Our Team | HMCutz💈</title>
+	<link rel="stylesheet" href="services.css">
+
+</head>
+<main>
+
+	<body>
+
+		<header>
+			<div class="flex-container">
+				<div class="name">
+					<h1><a style="color: black; text-decoration: none;" href="index.html">HM Cutz💈</a></h1>
+				</div>
+				<div class="links">
+					<a href="index.html">Home</a>
+					<a href="services.html">Services</a>
+					<a href="#contact" id="contact-link">Contact Us</a>
+				</div>
+			</div>
+		</header>
+
+
+		<div>
+			<h2>Our Team Members</h2>
+
+			<div id="slideshow-container" class="slideshow-container">
+				<div class="mySlides fade">
+					<strong><p>Micheal</p></strong>
+					<img src="images/micheal.png" style="width:25%">
+					<p>Hobbies: Basketball, Hiking</p>
+					<p>Specialites: Fade, Regular Haircut, Braids</p>
+				</div>
+
+				<div class="mySlides fade">
+					<strong><p>Shawn</p></strong>
+					<img src="images/shawn.jpg" style="width:25%">
+					<p>Hobbies: Videogames, Basketball</p>
+					<p>Specialites: Hair Color, Regular Haircut, Mullet</p>
+				</div>
+
+				<div class="mySlides fade">
+					<strong><p>Greg</p></strong>
+					<img src="images/greg.jpeg" style="width:25%">
+					<p>Hobbies: Singing, Reading</p>
+					<p>Specialites: Twists, Mullet, Braids</p>
+				</div>
+
+				<div class="mySlides fade">
+					<strong><p>Fred</p></strong>
+					<img src="images/louis.webp" style="width:25%">
+					<p>Hobbies: Running, Weightlifting</p>
+					<p>Specialites: Fade, Regular Haircut, Braids</p>
+				</div>
+
+				<div class="mySlides fade">
+					<strong><p>Bryce</p></strong>
+					<img src="images/bryce.jpeg" style="width:15%">
+					<p>Hobbies: Soccer, Volleyball</p>
+					<p>Specialites: Fade, Mullet, Facial</p>
+				</div>
+				<br>
+
+				<div style="text-align:center">
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
+
+
+
+
+
+
+</main>
+
+<hr style="margin-bottom: 40px;">
+
+
+<footer id="contact">
+	<p>HM Cutz</p>
+	<p>www.hmcutz.com</p>
+	<p>hmcutz@gmail.com</p>
+	<p>Tel:469-686-1556</p>
+
+	<div>
+		<a href="https://www.twitter.com/hmcutz"><img id="tw-logo" src="images/tweet-logo.png" alt="twitter logo"></a>
+		<a href="https://www.instagram.com/hmcutz"> <img id="ig-logo" src="images/ig logo.png" alt="ig logo"></a>
+		<a href="https://www.tiktok.com/hmcutz"><img id="tt-logo" src="images/tt-logo.png" alt="tt logo"></a>
+	</div>
+
+	<p>This site was developed by Habeeb Mustapha</p>
+</footer>
+
+
+</body>
+<script>
+	let slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+		let i;
+		let slides = document.getElementsByClassName("mySlides");
+		let dots = document.getElementsByClassName("dot");
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		slideIndex++;
+		if (slideIndex > slides.length) { slideIndex = 1 }
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex - 1].style.display = "block";
+		dots[slideIndex - 1].className += " active";
+		setTimeout(showSlides, 5000); // Change image every 5 seconds
+	}
+</script>
+
+</html>

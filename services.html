@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Services | HM Cutz💈</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="services.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap">
+	<script src="index.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<div class="flex-container">
+			<div class="name">
+				<h1><a style="color: black; text-decoration: none;" href="index.html">HM Cutz💈</a></h1>
+			</div>
+
+			<div class="links">
+				<a href="index.html">Home</a>
+				<a href="team.html">Team</a>
+				<a href="#contact" id="contact-link">Contact Us</a>
+			</div>
+		</div>
+	</header>
+
+
+	<main>
+
+		<h2>Our Services</h2>
+		<table style="display: inline;">
+			<caption>Men(16+)</caption>
+			<thead>
+				<tr>
+					<th>Service</th>
+					<th>Price</th>
+					<th>Duration</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Haircut</td>
+					<td>$30</td>
+					<td>30 minutes</td>
+				</tr>
+				<tr>
+					<td>Beard trim</td>
+					<td>$15</td>
+					<td>15 minutes</td>
+				</tr>
+				<tr>
+					<td>Hot towel shave</td>
+					<td>$40</td>
+					<td>45 minutes</td>
+				</tr>
+				<tr>
+					<td>Hair color</td>
+					<td>$50+</td>
+					<td>1-2 hours</td>
+				</tr>
+				<tr>
+					<td>Facial</td>
+					<td>$60</td>
+					<td>1 hour</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table style="display: inline; margin-left: 300px;">
+			<caption>Women</caption>
+			<thead>
+				<tr>
+					<th>Service</th>
+					<th>Price</th>
+					<th>Duration</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Haircut</td>
+					<td>$30</td>
+					<td>30 minutes</td>
+				</tr>
+				<tr>
+					<td>Braids</td>
+					<td>$60</td>
+					<td>45 minutes</td>
+				</tr>
+				<tr>
+					<td>Hot towel shave</td>
+					<td>$20</td>
+					<td>45 minutes</td>
+				</tr>
+				<tr>
+					<td>Hair Color</td>
+					<td>$50+</td>
+					<td>1-2 hours</td>
+				</tr>
+				<tr>
+					<td>Manicure</td>
+					<td>$20</td>
+					<td>30 minutes</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<table style="display: inline; float: right;">
+			<caption>Kids</caption>
+			<thead>
+				<tr>
+					<th>Service</th>
+					<th>Price</th>
+					<th>Duration</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Haircut</td>
+					<td>$10</td>
+					<td>30 minutes</td>
+				</tr>
+				<tr>
+					<td>Braids</td>
+					<td>$25</td>
+					<td>45 minutes</td>
+				</tr>
+				<tr>
+					<td>Fade</td>
+					<td>$1</td>
+					<td>20 minutes</td>
+				</tr>
+				<tr>
+					<td>Mullet</td>
+					<td>$12</td>
+					<td>15 minutes</td>
+				</tr>
+				<tr>
+					<td>Twists</td>
+					<td>$40</td>
+					<td>1 hour</td>
+				</tr>
+			</tbody>
+		</table>
+		<hr>
+
+		<div>
+			<h2>Some of our previous clients...</h2>
+			<p>Images change every 3 seconds:</p>
+
+			<div id="slideshow-container" class="slideshow-container">
+				<div class="mySlides fade">
+					<img src="images/woman-hair.jpeg" style="width:25%">
+					<p>Twists + Hair Color</p>
+				</div>
+
+				<div class="mySlides fade">
+					<img src="images/hair-991.jpg" style="width:25%">
+					<p>Fade + Beard trim</p>
+				</div>
+
+				<div class="mySlides fade">
+					<img src="images/fade.jpeg" style="width:25%">
+					<p>Regular + Beard Trim</p>
+				</div>
+
+				<div class="mySlides fade">
+					<img src="images/nice-hair.webp" style="width:25%">
+					<p>Regular</p>
+				</div>
+
+				<div class="mySlides fade">
+					<img src="images/mullet.jpeg" style="width:25%">
+					<p>Kid Mullet</p>
+				</div>
+				<br>
+
+				<div style="text-align:center">
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
+
+				<div style="background-color: ;">
+					<h2>Set up your Appointment Below</h2>
+					<form action="#" method="post">
+						<label for="calendar">Select Date:</label>
+						<input type="date" id="calendar" name="calendar">
+						<br><br>
+						<label for="barber">Select Barber:</label>
+						<select id="barber" name="barber">
+							<option value="barber1">Shawn</option>
+							<option value="barber2">Bryce</option>
+							<option value="barber3">Micheal</option>
+							<option value="barber3">Greg</option>
+							<option value="barber3">Fred</option>
+						</select>
+						<br><br>
+						<label for="time">Select Time:</label>
+						<input type="time" id="time" name="time">
+						<br><br>
+						<input type="submit" value="Submit Appointment">
+					</form>
+				</div>
+
+
+	</main>
+
+	<hr style="margin-bottom: 40px;">
+
+
+	<footer id="contact">
+		<p>HM Cutz</p>
+		<p>www.hmcutz.com</p>
+		<p>hmcutz@gmail.com</p>
+		<p>Tel:469-686-1556</p>
+
+		<div>
+			<a href="https://www.twitter.com/hmcutz"><img id="tw-logo" src="images/tweet-logo.png"
+					alt="twitter logo"></a>
+			<a href="https://www.instagram.com/hmcutz"> <img id="ig-logo" src="images/ig logo.png" alt="ig logo"></a>
+			<a href="https://www.tiktok.com/hmcutz"><img id="tt-logo" src="images/tt-logo.png" alt="tt logo"></a>
+		</div>
+
+		<p>This site was developed by Habeeb Mustapha</p>
+	</footer>
+
+
+</body>
+<script>
+	let slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+		let i;
+		let slides = document.getElementsByClassName("mySlides");
+		let dots = document.getElementsByClassName("dot");
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		slideIndex++;
+		if (slideIndex > slides.length) { slideIndex = 1 }
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex - 1].style.display = "block";
+		dots[slideIndex - 1].className += " active";
+		setTimeout(showSlides, 5000); // Change image every 5 seconds
+	}
+</script>
+
+
+
+
+</html>

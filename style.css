@@ -1,0 +1,78 @@
+
+html{
+  background-color:rgba(128, 128, 128, 0.542);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#head{
+    background-color: black;
+    display: flex;
+}
+.div1 a{
+    color: white;
+    text-decoration: none;
+}
+
+
+section{
+  background-color: rgba(128, 128, 128, 0.542);
+}
+
+header {
+    background-color: rgba(128, 128, 128, 0.542);
+    color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  hr{
+    margin-top: 40px;
+  }
+  
+  .name h1 {
+    font-size: 45px;
+    margin: 0;
+  }
+#tt-logo, #tw-logo, #ig-logo {
+    border-radius: 50%;
+    width: 25px;
+    
+
+}
+  .links a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+
+  footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: black;
+    line-height: 2px;
+  }
+  footer{
+    padding-top: 2px;
+    height: 160px;
+    background-color:rgba(128, 128, 128, 0.542);
+  }
+
+  main div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+  
+
+  
+

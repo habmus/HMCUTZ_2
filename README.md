@@ -1,2 +1,2 @@
 # HMCUTZ
-A Barbershop website
+A Barbershop website for webdev class
