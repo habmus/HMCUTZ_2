@@ -11,6 +11,11 @@ html{
     color: white;
     text-decoration: none;
 }
+.gallery{
+  display:flex;
+  justify-content: space-between;
+}
+
 
 
 section{
@@ -69,6 +74,10 @@ header {
 
   main div{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  img{
+    width: 200px;
+
   }
 
 
