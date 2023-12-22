@@ -14,6 +14,7 @@ html{
 .gallery{
   display:flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 
@@ -78,6 +79,9 @@ header {
   img{
     width: 200px;
 
+  }
+  .links{
+    display: flex;
   }
 
 
